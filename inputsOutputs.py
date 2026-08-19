@@ -12,3 +12,5 @@ print("Welcome to class " + name)
 print("What did you do this weekend: ")
 weekend = input()
 print("That is super cool I wish I " + weekend + " this weekend.")
+
+#changes
