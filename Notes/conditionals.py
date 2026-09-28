@@ -16,3 +16,10 @@ if raining:
     print("Bring an umbrella")
 else:
     print("Wear sunscreen")
+
+
+
+age = 14
+adult = True if age >= 18 else False
+
+print(f"You are an adult: {adult}")
