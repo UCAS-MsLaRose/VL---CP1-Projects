@@ -3,9 +3,11 @@ name = input("Tell me your name: ")
 attempts = 0
 
 def increase():
+    """This is used to increase the attempts variable by 1"""
     return attempts + 1
 
 def birthday(name, age=35):
+    """This sings happy birthday to a user and says their age"""
     print("Happy Birthday to you!")
     print("Happy Birthday to you!")
     print(f"Happy Birthday dear {name}!")
@@ -13,6 +15,7 @@ def birthday(name, age=35):
     print(f"You are now {age} years old!")
 
 def stupid_proof(user_answer, correct):
+    """Checks if the user has typed in a correct option for an input"""
     user_answer = user_answer.strip().title()
     if user_answer in correct:
         return True, user_answer, increase()
